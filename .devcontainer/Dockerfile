@@ -115,5 +115,5 @@ RUN \
     mkdir /usr/local/QuEST && \
     mkdir /usr/local/QuEST/lib && \
     cp libQuEST.a /usr/local/QuEST/lib && \
-    cp -r ../include /usr/local/QuEST/include && \
+    cp -r ../quest/include /usr/local/QuEST/include && \
     rm -rf /opt/QuEST
