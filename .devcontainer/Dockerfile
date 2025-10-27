@@ -114,6 +114,6 @@ RUN \
     cmake --build . && \
     mkdir /usr/local/QuEST && \
     mkdir /usr/local/QuEST/lib && \
-    cp QuEST/libQuEST.a /usr/local/QuEST/lib && \
-    cp -r ../QuEST/include /usr/local/QuEST/include && \
+    cp libQuEST.a /usr/local/QuEST/lib && \
+    cp -r ../include /usr/local/QuEST/include && \
     rm -rf /opt/QuEST
