@@ -29,7 +29,7 @@ RUN \
 # download qt
 RUN \
     cd /opt && \
-    wget -q https://download.qt.io/official_releases/qt/6.6/6.6.1/single/qt-everywhere-src-6.6.1.tar.xz
+    wget -q https://download.qt.io/archive/qt/6.6/6.6.1/single/qt-everywhere-src-6.6.1.tar.xz
 
 # compile/install Qt
 RUN \
